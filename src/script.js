@@ -1,4 +1,17 @@
 
+var customCardFirstDigit = generateFirstDigit();
+var customCardSecondDigit = generateSecondDigit(CustomCardFirstDigit);
+var customCardThirdDigit = generateThirdDigit();
+var customCardFourthDigit = generateFourthDigit();
+var customCardFifthDigit = generateFifthDigit();
+var customCardSixthDigit = generateSixthDigit(
+                           customCardFifthDigit,
+                           customCardSecondDigit,
+                           customCardThirdDigit,
+                           customCardFourthDigit,
+                           customCardFifthDigit,
+                           customCardSixthDigit
+ );
 
 
 

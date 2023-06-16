@@ -16,6 +16,6 @@ function generateSecondDigit(generatedFirstDigit) {
     var generatedNumber = getRandom (1, 9);
     // if (generatedNumber == 1) return generatedNumber++;
     // if (generatedNumber == 3) return generatedNumber++;
-    if (generatedNumber ==1 || generatedNumber == 3) return generatedNumber++;
+    if (generatedNumber ==1 || generatedNumber == 3) return ++generatedNumber; // префиксна инкрементация, а не суфиксна, за да се изпълни на този ред
     generatedNumber;
 }
